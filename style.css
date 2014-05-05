@@ -21,6 +21,16 @@ a:hover{
 	color: rgb(127, 191, 255);
 }
 
+section {
+    margin: 1em 6%;
+    background-color: rgb(250, 255, 250);
+    box-shadow: 0px 0px 12px #000000;
+    border-radius: 5px;
+    padding: 1em 2em;
+    max-width: 1080px;
+    min-width: 600px;
+}
+
 p {
 	padding: .2em;
 	margin: .2em;
@@ -117,15 +127,7 @@ aside p {
 
 
 /*  ~~~~~~~~~~~~~~~---------------     Main Section     ---------------~~~~~~~~~~~~~~~  */
-#main {
-    margin: 1em 6%;
-    background-color: rgb(250, 255, 250);
-    box-shadow: 0px 0px 12px #000000;
-    border-radius: 5px;
-    padding: 1em 2em;
-    max-width: 1080px;
-    min-width: 600px;
-}
+
 #main h1{
 	font-size: 1.8em;
         font-weight: bold;
@@ -172,6 +174,15 @@ aside p {
     margin-left: 1.2em;
 
 }
+
+/*  ~~~~~~~~~~~~~~~---------------    Events Section    ---------------~~~~~~~~~~~~~~~  */
+
+#events h1{
+	font-size: 1.8em;
+        font-weight: bold;
+}
+
+
 /*  ~~~~~~~~~~~~~~~---------------    Footer Section    ---------------~~~~~~~~~~~~~~~  */
 
 footer{
