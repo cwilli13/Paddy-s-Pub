@@ -20,3 +20,5 @@
       href="style.css"
       type="text/css"
       media="screen">
+<link rel="shortcut icon"
+ href="images/clover-favicon.ico">
