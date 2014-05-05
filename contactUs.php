@@ -8,8 +8,8 @@ include 'top.php';
     include 'header.php';
     include 'nav.php';
     ?>
-<section id="main">
-	<h1>Welcome to Paddy's Pub</h1>
+<section id="contactUs">
+	<h1>Contact Us</h1>
         <p>
             "The Most Freedom Loving Bar in America"
         </p>

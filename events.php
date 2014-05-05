@@ -15,17 +15,21 @@ include 'top.php';
         </p>
         <ul>
             <li>
-                <span class='date'>May 8</span> - Half price wings and soup!
+                <span class='date'>May 8</span> - <span class='eventTitle'>Half price wings and soup!</span>
             </li>
             <li>
-                <span class='date'>May 15</span> - Tap Takeover! <a href="http://www.tiredhands.com">Tired Hands</a> brewery will be bringing 4 kegs for us to tap;  HopHands, Wilbur, Sunulate, and Third Level.
+                <span class='date'>May 15</span> - <span class='eventTitle'>Tap Takeover!</span>  <a href="http://www.tiredhands.com">Tired Hands</a> brewery will be bringing 4 kegs for us to tap;  HopHands, Wilbur, Sunulate, and Third Level.
             </li>
             <li>
-                <span class='date'>May 22</span> - $3.50 Craft beers!
+                <span class='date'>May 22</span> - <span class='eventTitle'>$3.50 Craft beers!</span>
             </li>
             <li>
-                <span class='date'>May 29</span> - Karaoke Night! One free drink for each participant.
+                <span class='date'>May 29</span> - <span class='eventTitle'>Karaoke Night!</span> One free drink for each participant.
             </li>
+            <li>
+                <span class='date'>June 5</span> - <span class='eventTitle'>Ladies Night!</span> Ladies get 75% off drinks and 50% off food.
+            </li>
+            
         </ul>
 
 </section>

@@ -146,15 +146,25 @@ aside p {
 	font-size: 1.8em;
         font-weight: bold;
 }
-.date{
+
+span.date{
     font-size: .8em;
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
 }
+
+span.eventTitle{
+    
+}
+
 #events li{
     
     padding: .3em;
     margin: .2em;
     list-style-type: none;
 }
+
 
 /*  ~~~~~~~~~~~~~~~---------------    Footer Section    ---------------~~~~~~~~~~~~~~~  */
 
