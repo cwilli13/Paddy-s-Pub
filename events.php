@@ -21,7 +21,7 @@ include 'top.php';
                 <span class='date'>May 15</span> - Tap Takeover! <a href="http://www.tiredhands.com">Tired Hands</a> brewery will be bringing 4 kegs for us to tap;  HopHands, Wilbur, Sunulate, and Third Level.
             </li>
             <li>
-                <span class='date'>May 22</span> - $3.50 Craft beers
+                <span class='date'>May 22</span> - $3.50 Craft beers!
             </li>
             <li>
                 <span class='date'>May 29</span> - Karaoke Night! One free drink for each participant.
