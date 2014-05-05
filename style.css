@@ -1,9 +1,10 @@
 @import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 /*  ~~~~~~~~~~~~~~~---------------   General Section    ---------------~~~~~~~~~~~~~~~  */
 body {
     font-size: 12pt;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: rgba(100, 150, 200, 0.2);
 
 }
