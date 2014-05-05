@@ -13,12 +13,16 @@ include 'top.php';
         <p>
             "The Most Freedom Loving Bar in America"
         </p>
+        <div class ='homeImage'>
+            <img src="images/paddysPubDoor.jpg" alt="Pub Door" width='480' height='320'>
+        </div>
+        <p>
+            Paddy's Pub is a traditional Irish pub located at the intersection of Dickinson St and 3rd Ave, Philadelphia, PA.
+        </p>
+        <a href="https://www.google.com/maps/place/Dickinson+St+and+S.+3rd+Ave,+South+Philadelphia,+PA" 
+        class="location"></a>
 </section>
 
-    <!--<section id='other'>
-            <img id='frontimage' src="chinookerd.jpg" width="257" height="400" alt="Chinooker'd">
-    </section>
--->
 <?
 include ("footer.php");
 ?>

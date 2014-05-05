@@ -16,10 +16,7 @@ include 'top.php';
         </p>
 </section>
 
-    <!--<section id='other'>
-            <img id='frontimage' src="chinookerd.jpg" width="257" height="400" alt="Chinooker'd">
-    </section>
--->
+
 <?
 include ("footer.php");
 ?>

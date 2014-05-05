@@ -1,5 +1,5 @@
 <header>
-    <h1><a href="home.php">Paddy's Pub</a></h1>
+    <h1><a href="home.php"><img src="images/paddysLogo.jpg" alt="Paddy's Logo" width='408' height='187'></a></h1>
     <h2>"The Most Freedom Loving Bar in America"</h2>
     
     
@@ -18,7 +18,12 @@ function isOpen(){
 
 function timeTilClose(){
     $minSinceMidnight = intval(date('i')) + date('G') * 60;
-    $minTilClose = $minSinceMidnight + 180;
+    if ($minSinceMidnight < 180){
+        $minTilClose = 180 - $minSinceMidnight;
+    }
+    else{
+        $minTilClose = 1440 - $minSinceMidnight + 180;
+    }
     return $minTilClose;
 
     
