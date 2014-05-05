@@ -132,42 +132,7 @@ aside p {
 	font-size: 1.8em;
         font-weight: bold;
 }
-#main table {
-    max-width: 900px;
-    margin: 1em 6%;
-}
 
-#main td, #main th {
-	font-size: .9em;
-    border: 1px solid gray;
-    padding: .5em;
-    vertical-align: middle;
-    text-align: center;
-}
-#main th{
-	font-weight: bold;
-}
-#main td:nth-child(2) {
-    text-align: left;
-}
-
-#main div {
-    font-size: .9em;
-    /*width: 40%;
-    float: left;*/
-    margin: 0em 1em 1em 1em;
-    padding: .6em;
-}
-
-#main div h2 {
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: .2em;
-}
-
-#main div ul li {
-    padding: .3em 0;
-}
 
 #main p {
     clear: both;
@@ -181,7 +146,15 @@ aside p {
 	font-size: 1.8em;
         font-weight: bold;
 }
-
+.date{
+    font-size: .8em;
+}
+#events li{
+    
+    padding: .3em;
+    margin: .2em;
+    list-style-type: none;
+}
 
 /*  ~~~~~~~~~~~~~~~---------------    Footer Section    ---------------~~~~~~~~~~~~~~~  */
 
