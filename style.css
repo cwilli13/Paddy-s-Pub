@@ -154,8 +154,8 @@ aside p {
 
 #main div {
     font-size: .9em;
-    width: 40%;
-    float: left;
+    /*width: 40%;
+    float: left;*/
     margin: 0em 1em 1em 1em;
     padding: .6em;
 }
@@ -185,4 +185,19 @@ footer{
 }
 footer a{
     color:white;
+}
+
+
+/*  ~~~~~~~~~~~~~~~---------------    About Us Page    ---------------~~~~~~~~~~~~~~~  */
+
+.employee {
+    border: 1px solid red;
+}
+
+.employeeImage > img {
+    width: 200px;
+}
+
+.employeeBlurb {
+    
 }
