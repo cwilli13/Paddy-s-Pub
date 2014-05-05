@@ -1,5 +1,6 @@
 <?php
-include 'top.php?title=main';
+$title='Home';
+include 'top.php';
 ?>
 
 <body>
@@ -7,10 +8,20 @@ include 'top.php?title=main';
     include 'header.php';
     include 'nav.php';
     ?>
-    <div class="wrapper">
-  	<h2>Web Usability Test</h2>
-	<a class='logo' href="http://www.leonardosonline.com/" target="_blank"><img src="leo-logo.gif" alt="Leonardo's Logo"/></a>
-	<a class='script' href="script.pdf" target="_blank">Script & Questions</a>
-    </div>
-  </body>
+<section id="main">
+	<h1>Welcome to Paddy's Pub</h1>
+        <p>
+            "The Most Freedom Loving Bar in America"
+        </p>
+</section>
+
+    <!--<section id='other'>
+            <img id='frontimage' src="chinookerd.jpg" width="257" height="400" alt="Chinooker'd">
+    </section>
+-->
+<?
+include ("footer.php");
+?>
+
+</body>
 </html>

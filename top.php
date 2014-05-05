@@ -2,12 +2,9 @@
 <html lang="en">
 <head>
     
-<?php
-$pageName=$_GET["title"];
-?>
 <title>
     <?php
-    print "$pageName";
+    print "$title";
     ?>
 </title>
 
