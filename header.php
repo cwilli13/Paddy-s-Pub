@@ -26,10 +26,10 @@ function timeTilClose(){
 }
 
 if (isOpen()){
-    echo "<p>Paddy's is <span class='status'>open</span> for " . timeTilClose() . " more minutes.</p>";
+    echo "<p>Paddy's is <span class='open'>open</span> for " . timeTilClose() . " more minutes.</p>";
 }
 else{
-    echo "<p>Paddy's is <span class='status'>closed</span>. We reopen at noon.</p>";
+    echo "<p>Paddy's is <span class='closed'>closed</span> until noon.</p>";
 }
 
 ?>

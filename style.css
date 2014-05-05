@@ -6,6 +6,7 @@ body {
     font-size: 12pt;
     font-family: 'Open Sans', sans-serif;
     background-color: rgba(100, 150, 200, 0.2);
+    background-image: url('images/brick-bkgd.jpg');
 }
 
 span.bold {
@@ -27,6 +28,7 @@ section {
     box-shadow: 0px 0px 12px #000000;
     border-radius: 5px;
     padding: 1em 2em;
+    padding-bottom: 50px; /*height of footer*/
     max-width: 1080px;
     min-width: 600px;
 }
@@ -60,6 +62,27 @@ header a{
 }
 header a:hover{
     color: black;
+}
+span.open{
+	color: green;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+span.closed{
+	color: red;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+header p{
+	max-width: 180px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+header{
+    background-image: none;
+    background-color: gray;
+
 }
 
 /*  ~~~~~~~~~~~~~~~---------------  Navigation Section  ---------------~~~~~~~~~~~~~~~  */
@@ -173,6 +196,10 @@ footer{
     background-color:rgb(102, 115, 127);
     padding: 18px 0 18px 2%;	
     color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /*height of footer, same as padding-bottom for the section */
 }
 footer a{
     color:white;

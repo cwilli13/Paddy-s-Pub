@@ -11,7 +11,8 @@ include 'top.php';
 <section id="contactUs">
 	<h1>Contact Us</h1>
         <p>
-            "The Most Freedom Loving Bar in America"
+            Questions? Comments? Interested in a job? Send us an email at <a class="email" href="mailto:contact.paddyspub@gmail.com">contact.paddyspub@gmail.com</a>
+            with your contact information and we will get back to you ASAP.
         </p>
 </section>
 
