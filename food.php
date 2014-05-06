@@ -113,7 +113,7 @@ include 'top.php';
                 <p class="menuItemInfo">
                     Two Hot Dogs that come with a healthy serving of Frys. 
                     <br />
-                    Add chili - $2.00 
+                    <div id="addOnChili">Add chili - $2.00 </div>
                 </p>
             </div>
 
@@ -150,7 +150,7 @@ include 'top.php';
 
                     <br />
 
-                    Add chicken - $2.00
+                    <div id="addOnChicken">Add chicken - $2.00</div>
                 </p>
             </div>
     </div>

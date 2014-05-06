@@ -279,6 +279,36 @@ footer a{
 
 }
 
+#hours > ul > li {
+    /*border: 1px solid red;*/
+    font-weight: bold;
+    font-size: 1.2em;
+    list-style: none;
+    text-decoration: underline;
+}
+
+#hours > ul > li > ul > li {
+    /*border: 1px solid red; */
+    list-style: none;
+    font-size: .8em;
+    margin: 6px 6px 6px -10px;
+    padding: 2px 2px 2px 2px;
+    color: #004D13;
+}   
+
+#hours {
+    /* border: 1px solid red; */
+    width: 300px;
+    float: left;
+    margin: 0px 0px 30px 160px;
+}
+#aboutUsContact {
+    /* border: 1px solid red; */
+    width: 300px;
+    float: right;
+    margin: 0px 160px 0px 0px;
+}
+
 /*  ~~~~~~~~~~~~~~~---------------    Menu Page    ---------------~~~~~~~~~~~~~~~  */
 
 .menuLinks {
@@ -348,6 +378,14 @@ footer a{
    /* border: 1px solid; */
     width: 100px;
     float: right;
-    margin: -36px 650px 0px 0px;
+    margin: -36px 595px 0px 0px;
     padding: 9px 0px 7px 8px;
+}
+
+#addOnChicken {
+    margin: 0px 0px 0px 195px;
+}
+
+#addOnChili {
+    margin: 0px 0px 0px 220px;
 }

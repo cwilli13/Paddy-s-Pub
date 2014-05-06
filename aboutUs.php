@@ -9,6 +9,70 @@ include 'top.php';
     include 'nav.php';
     ?>
 <section id="main">
+    <h1>About Us</h1>
+    <div id="hours">
+        <h2>Our Hours:</h2>
+            <ul>
+                <li>Sunday
+                    <ul>
+                        <li>Noon - 3AM</li>
+                    </ul>
+                </li>
+                <li>Monday
+                    <ul>
+                        <li>Noon - 3AM</li>
+                    </ul>
+                </li>
+                <li>Tuesday
+                    <ul>
+                        <li>Noon - 3AM</li>
+                    </ul>
+                </li>
+                <li>Wednesday
+                    <ul>
+                        <li>Noon - 3AM</li>
+                    </ul>
+                </li>
+                <li>Thursday
+                    <ul>
+                        <li>Noon - 3AM</li>
+                    </ul>
+                </li>
+                <li>Friday
+                    <ul>
+                        <li>Noon - 3AM</li>
+                    </ul>
+                </li>
+                <li>Saturday
+                    <ul>
+                        <li>Noon - 3AM</li>
+                    </ul>
+                </li>
+
+            </ul>
+
+    </div>  <!-- END div #hours -->
+
+    <div id="aboutUsContact">
+        <h2>Contact Us</h2>
+        <div class='contact'>
+            
+            <p class='address'>
+                Paddy's Pub,<br>
+                Dickinson St. and 3rd Ave,<br>
+                Philadelphia, PA 19147, <br>
+                <a href="https://www.google.com/maps/place/Dickinson+St+and+S.+3rd+Ave,+South+Philadelphia,+PA" >Get directions</a><br>
+               Phone: (215) 555-0199
+            </p>
+        </div><!-- END div .contact -->
+
+    </div>  <!-- END div #aboutUsContact -->
+
+            <br />
+            <hr />
+            <br />
+
+    <h1>Our Staff</h1>
 
      <div class="employee">
 
