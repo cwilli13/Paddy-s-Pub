@@ -1,7 +1,5 @@
 body {
      background-color:lightgray;
-     background-attachment:fixed;
-     background-position:center;
 }
 
 .wrapper {
@@ -60,10 +58,7 @@ p {
 }
 
 .video {
-    /*display:block;
-    margin-bottom:3%;
-    margin-left:auto;
-    margin-right:auto;*/
+
     margin-right:3%;
     margin-top: 3%;
 }

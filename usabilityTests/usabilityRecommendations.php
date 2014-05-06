@@ -22,8 +22,12 @@ include 'usabilityTop.php';
             <li>Menu prices are unclear with price additions, such as when adding chili to burgers.
                 <p>We changed the prices to be more clear by aligning the price additions to the right.</p>
             </li>
-            <li>The home page should have links to the about us page
-                <p>We added a link</p>
+            <li>The home page should have links to the about us page.
+                <p>We added a link to the home page.</p>
+            </li>
+            <li>Every page had the same title, this made it somewhat unclear about where you were on the site.
+                <p>We used PHP to change the titles of each page while still importing the top.</p>
+                
             </li>
         </ol>
     </div>

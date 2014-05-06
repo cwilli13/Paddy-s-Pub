@@ -12,43 +12,8 @@ include 'top.php';
     <h1>About Us</h1>
     <div id="hours">
         <h2>Our Hours:</h2>
-            <ul>
-                <li>Sunday
-                    <ul>
-                        <li>Noon - 3AM</li>
-                    </ul>
-                </li>
-                <li>Monday
-                    <ul>
-                        <li>Noon - 3AM</li>
-                    </ul>
-                </li>
-                <li>Tuesday
-                    <ul>
-                        <li>Noon - 3AM</li>
-                    </ul>
-                </li>
-                <li>Wednesday
-                    <ul>
-                        <li>Noon - 3AM</li>
-                    </ul>
-                </li>
-                <li>Thursday
-                    <ul>
-                        <li>Noon - 3AM</li>
-                    </ul>
-                </li>
-                <li>Friday
-                    <ul>
-                        <li>Noon - 3AM</li>
-                    </ul>
-                </li>
-                <li>Saturday
-                    <ul>
-                        <li>Noon - 3AM</li>
-                    </ul>
-                </li>
-
+            <ul>  
+                <li>We are open every day from Noon to 3am</li>
             </ul>
 
     </div>  <!-- END div #hours -->
@@ -82,8 +47,6 @@ include 'top.php';
             <img src="images/dennis1.jpg" alt="Dennis" />
         </div>
 
-       
-
         <p class="employeeBlurb">Dennis is a co-owner and occasional bartender of Paddy's Pub.  </p>
 
     </div>
@@ -96,8 +59,6 @@ include 'top.php';
             <img src="images/mac1.jpg" alt="Mac" />
         </div>
 
-        
-
         <p class="employeeBlurb">Mac is a co-owner of Paddy's Pub and is responsible for security as the "sheriff of Paddy's".</p>
 
     </div>
@@ -109,13 +70,11 @@ include 'top.php';
         <div class="employeeImage">
             <img src="images/dee1.jpg" alt="Dee" />
         </div>
-
-        
+   
 
         <p class="employeeBlurb">Dee is the main bartender at Paddy's Pub.</p>
 
     </div>
-
 
     <div class="employee">
 
@@ -124,14 +83,12 @@ include 'top.php';
         <div class="employeeImage">
             <img src="images/frank.png" alt="Frank" />
         </div>
-
-       
+ 
 
         <p class="employeeBlurb">Frank is Dennis and Dee's father and the Landlord of Paddy's Pub.  He uses his fatherly instinct and experience
             to help manage the pub.</p>
 
     </div>
-
 
      <div class="employee">
 
@@ -141,13 +98,11 @@ include 'top.php';
             <img src="images/Charlie.jpg" alt="Charlie" />
         </div>
 
-       
 
         <p class="employeeBlurb">Charlie was a co-owner at Paddy's pub, but traded all his stocks for "goods and services", 
             half a sandwich, and other unnamed reasons.  Now Charlie is responsible for "Charlie Work". </p>
         
     </div>
-
 
 </section>
 
