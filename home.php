@@ -26,6 +26,7 @@ include 'top.php';
             Here at Paddy's we are very concerned about our impact on the environment, so we minimize our waste and electricity consumption by heating the pub by burning trash in the furnace.
             This also gives our bar its characteristic smokey smell. 
         </p>
+
 </section>
 
 <?

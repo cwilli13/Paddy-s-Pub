@@ -10,7 +10,7 @@ include 'top.php';
     ?>
 <section id="contactUs">
 	<h1>Contact Us</h1>
-        <h2>Contact Info</h2>
+        <h2>Contact Info:</h2>
         <p class='address'>
             Paddy's Pub,<br>
             Dickinson St and 3rd Ave,<br>

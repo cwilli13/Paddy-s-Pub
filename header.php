@@ -31,11 +31,12 @@ function timeTilClose(){
 }
 
 if (isOpen()){
-    echo "<p>Paddy's is <span class='open'>open</span> for " . timeTilClose() . " more minutes.</p>";
+    echo "<p class='status'>Paddy's is <span class='open'>open</span> for " . timeTilClose() . " more minutes.</p>";
 }
 else{
-    echo "<p>Paddy's is <span class='closed'>closed</span> until noon.</p>";
+    echo "<p class='status'>Paddy's is <span class='closed'>closed</span> until noon.</p>";
 }
 
 ?>
+<p class='directions'><a href="https://www.google.com/maps/place/Dickinson+St+and+S.+3rd+Ave,+South+Philadelphia,+PA" >Get directions</a></p>
 </header>

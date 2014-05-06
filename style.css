@@ -83,7 +83,7 @@ span.closed{
 	font-weight: bold;
 	font-size: 1.2em;
 }
-header p{
+header p.status{
 	max-width: 130px;
 	text-align: center;
 	position: absolute;
@@ -94,6 +94,25 @@ header p{
 	padding: 5px;
 	margin: 0;
 }
+header p.directions{
+    	max-width: 130px;
+	text-align: center;
+	position: absolute;
+	top: 100px;
+	right: 20px;
+	background-color: gray;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 0;
+}
+header p a{
+    color:white;
+    text-decoration: underline;
+}
+header p a:hover{
+    color:rgb(0, 167, 92);
+}
+
 header{
     background-image: none;
     background-color: black;
