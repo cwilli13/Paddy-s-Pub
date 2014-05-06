@@ -24,7 +24,7 @@ include 'top.php';
 
     
         <a href="food.php">
-         <img src="images/food.jpg" />
+         <img src="images/food.jpg" alt="Pub Burger" />
         </a>
 
     </div>
@@ -44,7 +44,7 @@ include 'top.php';
 
     
         <a href="drink.php">
-         <img src="images/beer1.jpg" />
+         <img src="images/beer1.jpg" alt="Beer" />
         </a>
     </div>
 
