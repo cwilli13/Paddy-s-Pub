@@ -14,7 +14,7 @@ include 'top.php';
         <h2>Contact Info:</h2>
         <p class='address'>
             Paddy's Pub,<br>
-            Dickinson St and 3rd Ave,<br>
+            Dickinson St. and 3rd Ave,<br>
             Philadelphia, PA 19147, <br>
             <a href="https://www.google.com/maps/place/Dickinson+St+and+S.+3rd+Ave,+South+Philadelphia,+PA" >Get directions</a><br>
            Phone: (215) 555-0199
