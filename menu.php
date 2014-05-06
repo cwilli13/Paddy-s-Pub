@@ -9,10 +9,48 @@ include 'top.php';
     include 'nav.php';
     ?>
 <section id="main">
-	<h1>Welcome to Paddy's Pub</h1>
-        <p>
-            "The Most Freedom Loving Bar in America"
-        </p>
+	<h1>Enjoy Some of our Delicious Pub Fare with a Great Brew!</h1>
+
+    <br />
+    <br />
+
+    <div class="menuLinks">
+
+        <a href="food.php">
+            <h2>Food</h2>
+        </a>
+
+        <br />
+
+    
+        <a href="food.php">
+         <img src="images/food.jpg" />
+        </a>
+
+    </div>
+
+    <br />
+        <hr />
+
+    <br />
+    
+    <div class="menuLinks">
+    
+        <a href="drink.php">
+            <h2>Drink</h2>
+        </a>
+
+        <br />
+
+    
+        <a href="drink.php">
+         <img src="images/beer1.jpg" />
+        </a>
+    </div>
+
+    <br />
+    <br />
+
 </section>
 
     <!--<section id='other'>
