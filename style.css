@@ -12,7 +12,6 @@ body {
 span.bold {
     font-weight: bold;
     font-style: italic;
-
 }
 
 a{
@@ -129,6 +128,7 @@ header div.info{
 	border-radius: 5px;
 	padding: 5px;
 	margin: 0;
+        font-size:.9em;
 }
 
 header p a{
@@ -143,7 +143,9 @@ header{
     background-image: none;
     background-color: black;
     color:white;
-
+}
+header span.small{
+    font-size: .75em;
 }
 
 /*  ~~~~~~~~~~~~~~~---------------  Navigation Section  ---------------~~~~~~~~~~~~~~~  */

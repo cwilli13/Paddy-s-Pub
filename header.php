@@ -28,7 +28,7 @@ function timeTilClose(){
 }
 
 if (isOpen()){
-    echo "<p class='status'>Paddy's is <span class='open'>open</span> for " . timeTilClose() . " more minutes (until 3am).</p>";
+    echo "<p class='status'>Paddy's is <span class='open'>open</span> for " . timeTilClose() . " more minutes <span class='small'>(until 3am)</span></p>";
 }
 else{
     echo "<p class='status'>Paddy's is <span class='closed'>closed</span> until noon.</p>";
