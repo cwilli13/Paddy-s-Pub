@@ -12,6 +12,8 @@ include 'usabilityTop.php';
             <li>The hours of operation are not prominently displayed
                 <p>
                 We changed the minutes until Paddy's closes so it displays the closing time. We also added a link that triggers an alert window with the bar hours.
+                <a href="http://www.uvm.edu/~jmlane/cs142/assignment7/Paddy-s-Pub/images/hours_before.png" target="_blank">Before</a>
+                <a href="http://www.uvm.edu/~jmlane/cs142/assignment7/Paddy-s-Pub/images/hours_after.png" target="_blank">After</a>
                 </p>
             </li>
             <li>The "about us" page should have more info that just the bar owners.
@@ -22,8 +24,6 @@ include 'usabilityTop.php';
             </li>
             <li>The home page should have links to the about us page
                 <p>We added a link</p>
-                  
-                   
             </li>
         </ol>
     </div>
