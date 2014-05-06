@@ -9,11 +9,22 @@ include 'usabilityTop.php';
     <div class="wrapper">
         <h2>Recommendations</h2>
         <ol>
-            <li>Integrate 'Menu' and 'Online Ordering'. The simple approach would be removing the 'Menu' page entirely.</li>
-            <li>Streamline categorization of the menu. It should be easy to locate specific items/categories, though a "view all" default option would be ideal.</li>
-            <li>Make pages scale up to avoid blank space.</li>
-            <li>Provide default option for crust and any other low priority options.</li>
-            <li>Hide ingredients in the menu so more items can be displayed without scrolling. Click to display ingredients.</li>
+            <li>The hours of operation are not prominently displayed
+                <p>
+                We changed the minutes until Paddy's closes so it displays the closing time. We also added a link that triggers an alert window with the bar hours.
+                </p>
+            </li>
+            <li>The "about us" page should have more info that just the bar owners.
+                <p>We added the bar hours to the "about us" page, and we also added contact information.</p>
+            </li>
+            <li>Menu prices are unclear with price additions, such as when adding chili to burgers.
+                <p>We changed the prices to be more clear by aligning the price additions to the right.</p>
+            </li>
+            <li>The home page should have links to the about us page
+                <p>We added a link</p>
+                  
+                   
+            </li>
         </ol>
     </div>
 </body>
