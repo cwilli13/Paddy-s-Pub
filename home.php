@@ -10,6 +10,7 @@ include 'top.php';
     ?>
 <section id="home">
 	<h1>Welcome to Paddy's Pub</h1>
+        
         <p>
             "The Most Freedom Loving Bar in America"
         </p>
