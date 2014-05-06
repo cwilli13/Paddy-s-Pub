@@ -19,7 +19,7 @@ include 'top.php';
 
         <p>Charlie was a co-owner at Paddy's pub, but traded all his stocks for "goods and services", 
             half a sandwich, and other unnamed reasons.  Now Charlie is responsible for "Charlie Work". </p>
-
+        
     </div>
 
     <div class="employee">
@@ -72,16 +72,7 @@ include 'top.php';
 
     </div>
 
-
-   
-
-    
-
-
-    
-
 </section>
-
 
 <?
 include ("footer.php");

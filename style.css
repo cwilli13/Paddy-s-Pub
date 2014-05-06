@@ -5,7 +5,7 @@
 body {
     font-size: 12pt;
     font-family: 'Open Sans', sans-serif;
-    background-color: rgba(100, 150, 200, 0.2);
+    background-color: rgb(255, 255, 255);
     background-image: url('images/brick-bkgd.jpg');
 }
 
@@ -19,18 +19,19 @@ a{
 	color: black;
 }
 a:hover{
-	color: rgb(127, 191, 255);
+	color: rgb(0, 167, 92);
 }
 
 section {
     margin: 1em 6%;
-    background-color: rgb(250, 255, 250);
+    background-color: rgb(226, 246, 236);
     box-shadow: 0px 0px 12px #000000;
     border-radius: 5px;
     padding: 1em 2em;
     padding-bottom: 50px; /*height of footer*/
     max-width: 1080px;
     min-width: 480px;
+    min-height: 400px;
 }
 
 p {
@@ -155,20 +156,33 @@ span.eventTitle{
 	font-size: 1.1em;
 }
 #events ul{
-    	padding:0;
+    	padding:.5em;
 	margin:0;
+        background-color: rgba(0, 167, 92, .3);
+	border-radius: 5px;
+}
+
+#events li:nth-child(n+2){
+    border-top: 1px dashed gray;	
+
 }
 
 #events li{
    line-height: 110%;
-    padding: .4em;
+    padding: .8em .4em;
     margin: .4em;
     list-style-type: none;
     margin-left: 7.5em;
     text-indent: -7.5em;
+    
 }
 
-
+/*  ~~~~~~~~~~~~~~~---------------    Contact Us Section    ---------------~~~~~~~~~~~~~~~  */
+#contactUs p{
+	margin: 0 1em;
+	padding: .4em 1em;
+	line-height: 110%;
+}
 /*  ~~~~~~~~~~~~~~~---------------    Footer Section    ---------------~~~~~~~~~~~~~~~  */
 
 footer{
