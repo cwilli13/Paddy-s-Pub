@@ -12,6 +12,38 @@ include 'top.php';
 	<div class="drinkMenu">
         <h1>Beer</h1>
             <div class="drinkItem">
+                <h3> - Pabst Blue Ribbon</h3>   <p> - $3.00 </p>
+
+                <p class="menuItemInfo">
+                    'Murica
+                </p>
+            </div>
+
+            <div class="drinkItem">
+                <h3> - Bud Light</h3>   <p> - $3.50 </p>
+
+                <p class="menuItemInfo">
+                    Here We Go
+                </p>
+            </div>
+
+            <div class="drinkItem">
+                <h3> - Budweiser</h3>   <p> - $4.00 </p>
+
+                <p class="menuItemInfo">
+                    Grab Some Buds
+                </p>
+            </div>
+
+            <div class="drinkItem">
+                <h3> - Heady Topper</h3>   <p> - $20.00 </p>
+
+                <p class="menuItemInfo">
+                    We don't know how we got it either.
+                </p>
+            </div>
+
+            <div class="drinkItem">
                 <h3> - Coors Light</h3>   <p> - $4.00 </p>
 
                 <p class="menuItemInfo">

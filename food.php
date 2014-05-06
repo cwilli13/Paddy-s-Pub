@@ -11,64 +11,148 @@ include 'top.php';
 <section id="main">
 	<div class="foodMenu">
 
-        <h1>Beer</h1>
-            <div class="drinkItem">
-                <h3> - Coors Light</h3>   <p> - $4.00 </p>
+        <h1>Appetizers</h1>
+            <div class="foodItem">
+                 <h3> - Wings</h3>  <p> - $1.00 ea </p>
+                    <ul>
+                        <li>1/2 Dozen</li>
+                        <li>1 Dozen</li>
+                        <li>1 1/2 Dozen</li>
+                    </ul>
 
                 <p class="menuItemInfo">
-                    An American classic, The Banquet Beer.
+                    Our wings are the perfect way to spice up your night!
                 </p>
             </div>
-            <div class="drinkItem">
-                <h3> - Brockman</h3>  <p> - $5.00 </p>
+
+
+            <div class="foodItem">
+                 <h3> - Potato Skins</h3>  <p> - $6.00 </p>
 
                 <p class="menuItemInfo">
-                    A Paddy's Favorite.
+                    Potato + Cheese + Bacon = Awesome
                 </p>
             </div>
-            <div class="drinkItem">
-                <h3> - Homebrew</h3>  <p> - $10.00 </p>
+            
+            <div class="foodItem">
+                 <h3> - Fried Pickles</h3>  <p> - $7.00 </p>
 
                 <p class="menuItemInfo">
-                    Our world famous Homebrew is made every night right here at Paddy's Pub! An explosion of flavor, 
-                    this beer will blow you away!
+                    Get ready for a salty, fried explosion of flavor.
+                </p>
+            </div>
+
+            <div class="foodItem">
+                 <h3> - Jalepeno Poppers</h3>  <p> - $7.00 </p>
+
+                <p class="menuItemInfo">
+                    For those who like a nice kick.
+                </p>
+            </div>
+
+            <div class="foodItem">
+                 <h3> - Chicken Fingers</h3>  <p> - $3.00 </p>
+
+                <p class="menuItemInfo">
+                    A simple classic, comes with a selection of dipping sauces.
                 </p>
             </div>
             
 
 
-        <h1>Wine</h1>
-            <div class="drinkItem">
-                <h3> - Red Wine</h3>    <p> - $8.00 </p>
-
-                <p class="menuItemInfo">
-                    For some class in your night.
-                </p>
-            </div>
-            <div class="drinkItem">   
-                <h3> - White Wine</h3>   <p> - $8.00 </p>
-
-                <p class="menuItemInfo">
-                    Slightly chilled and ready to be guzzled.
-                </p>
-            </div>
-            <div class="drinkItem">     
-                <h3> - Wine in a Can</h3>   <p> - $6.50 </p>
-
-                <p class="menuItemInfo">
-                    You've never had convenience like this! We siphon top shelf boxed wine into cans for an easy, discrete,
-                     and spill-proof drinking experience.
-                </p>
-            </div>
+        <h1>Entrees</h1>
             
+             <div class="foodItem">
+                 <h3> - Pub Burger</h3>  <p> - $9.00 </p>
 
+                <p class="menuItemInfo">
+                    It isn't a pub without a Pub Burger. A big beef patty with bacon, onion rings, lettuce, pickles, and bbq sauce. 
+                </p>
+            </div>
 
-    
+            <div class="foodItem">
+                 <h3> - Build your own Burger</h3>  <p> - $7.00 </p>
 
+                <p class="menuItemInfo">
+                   Have the burger as you like it.  Toppings include:
+                    <ul>
+                        <li>Tomato</li>
+                        <li>Lettuce</li>
+                        <li>Onion</li>
+                        <li>Pickles</li>
+                        <li>Bacon</li>
+                        <li>Fried Onions</li>
+                        <li>Onion Rings</li>
+                        <li>Ketchup</li>
+                        <li>Mustard</li>
+                        <li>Mayo</li>
+                        <li>BBQ Sauce</li>
+                    </ul>
+                </p>
+            </div>
 
+            <div class="foodItem">
+                 <h3> - Bangers n' Mash</h3>  <p> - $15.00 </p>
 
-  
+                <p class="menuItemInfo">
+                    An Irish classic.
+                </p>
+            </div>
 
+            <div class="foodItem">
+                 <h3> - Classic Reuben</h3>  <p> - $10.00 </p>
+
+                <p class="menuItemInfo">
+                    Swiss cheese, sauerkraut and Thousand Island Dressing make up this classic. 
+                </p>
+            </div>
+
+            <div class="foodItem">
+                 <h3> - Double Dogs</h3>  <p> - $10.00 </p>
+
+                <p class="menuItemInfo">
+                    Two Hot Dogs that come with a healthy serving of Frys. 
+                    <br />
+                    Add chili - $2.00 
+                </p>
+            </div>
+
+        <h1>Sides</h1>
+            <div class="foodItem">
+                 <h3> - French Frys</h3>  <p> - $3.00 </p>
+
+                <p class="menuItemInfo">
+                    Hand cut frys are the perfect side for any meal.
+                </p>
+            </div>
+
+            <div class="foodItem">
+                 <h3> - Onion Rings</h3>  <p> - $4.00 </p>
+
+                <p class="menuItemInfo">
+                    When frys just don't do the job.
+                </p>
+            </div>
+
+            <div class="foodItem">
+                 <h3> - Mashed Potatoes</h3>  <p> - $5.00 </p>
+
+                <p class="menuItemInfo">
+                    Smooth and Creamy.
+                </p>
+            </div>
+
+            <div class="foodItem">
+                 <h3> - Caesar Salad</h3>  <p> - $4.00 </p>
+
+                <p class="menuItemInfo">
+                    A great side to help lower your guilt.
+
+                    <br />
+
+                    Add chicken - $2.00
+                </p>
+            </div>
     </div>
 
 
