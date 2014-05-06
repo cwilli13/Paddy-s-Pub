@@ -1,7 +1,7 @@
 <header>
     <h1><a href="home.php"><img src="images/paddysLogo.jpg" alt="Paddy's Logo" width='408' height='187'></a></h1>
     <h2>"The Most Freedom Loving Bar in America"</h2>
-    
+
     
 <?php
 function isOpen(){
@@ -25,18 +25,26 @@ function timeTilClose(){
         $minTilClose = 1440 - $minSinceMidnight + 180;
     }
     return $minTilClose;
-
-    
-    
 }
 
 if (isOpen()){
-    echo "<p class='status'>Paddy's is <span class='open'>open</span> for " . timeTilClose() . " more minutes.</p>";
+    echo "<p class='status'>Paddy's is <span class='open'>open</span> for " . timeTilClose() . " more minutes (until 3am).</p>";
 }
 else{
     echo "<p class='status'>Paddy's is <span class='closed'>closed</span> until noon.</p>";
 }
-
 ?>
-<p class='directions'><a href="https://www.google.com/maps/place/Dickinson+St+and+S.+3rd+Ave,+South+Philadelphia,+PA" >Get directions</a></p>
+    
+<script>
+    function showHours(){
+        alert("We are open from Noon to 3am every day.");
+    }
+</script> 
+    
+
+<div class='info'>
+    <p>Phone:<br>(215) 555-0199</p>
+    <p><a href="https://www.google.com/maps/place/Dickinson+St+and+S.+3rd+Ave,+South+Philadelphia,+PA" >Get directions</a></p>
+    <p onclick="showHours();"><a>Hours</a></p>
+</div>
 </header>
